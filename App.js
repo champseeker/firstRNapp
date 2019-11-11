@@ -41,7 +41,13 @@ const App: () => React$Node = () => {
           )}
           <View style={styles.body}>
             <View style={styles.sectionContainer}>
-              <Text>Welcome to C308 web framework</Text>
+              <Text style={styles.sectionTitle}>Set Pickup Time</Text>
+              <Text style={styles.sectionDescription}>
+                Set a time you would like us to arrive at your pickup location
+              </Text>
+              <Text style={{fontWeight: 'bold', fontSize: 18}}>RP Furniture Shop</Text>
+            </View>
+            <View style={styles.sectionContainer}>
               <Text style={styles.sectionTitle}>Lesson 1</Text>
               <Text style={styles.sectionDescription}>
                 Gonna <Text style={styles.highlight}>KILL</Text> myself to start a new since im dying
