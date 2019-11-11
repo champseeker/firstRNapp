@@ -25,6 +25,7 @@ import {
 } from 'react-native/Libraries/NewAppScreen';
 
 const App: () => React$Node = () => {
+  console.log('I am a console statement')
   return (
     <>
       <StatusBar barStyle="dark-content" />
@@ -41,28 +42,29 @@ const App: () => React$Node = () => {
           <View style={styles.body}>
             <View style={styles.sectionContainer}>
               <Text>Welcome to C308 web framework</Text>
-              <Text style={styles.sectionTitle}>Step One</Text>
+              <Text style={styles.sectionTitle}>Lesson 1</Text>
               <Text style={styles.sectionDescription}>
-                Edit <Text style={styles.highlight}>App.js</Text> to change this
-                screen and then come back to see your edits.
+                Gonna <Text style={styles.highlight}>KILL</Text> myself to start a new since im dying
               </Text>
             </View>
             <View style={styles.sectionContainer}>
-              <Text style={styles.sectionTitle}>See Your Changes</Text>
+              <Text style={styles.sectionTitle}>Lesson 2</Text>
               <Text style={styles.sectionDescription}>
-                <ReloadInstructions />
+                If lesson 1 fails and u are not caught by the police for
+                attempting suicide, run into the amazon and hope that disease
+                and animals kill u
               </Text>
             </View>
             <View style={styles.sectionContainer}>
-              <Text style={styles.sectionTitle}>Debug</Text>
+              <Text style={styles.sectionTitle}>Lesson 3</Text>
               <Text style={styles.sectionDescription}>
-                <DebugInstructions />
+                If lesson 2 fails too, just know that u might be a born jungle survivor so set up a trap that is used to kill animals then walk into it urself
               </Text>
             </View>
             <View style={styles.sectionContainer}>
-              <Text style={styles.sectionTitle}>Learn More</Text>
+              <Text style={styles.sectionTitle}>Last lesson</Text>
               <Text style={styles.sectionDescription}>
-                Read the docs to discover what to do next:
+                If all still fails, You suck at killing urself too
               </Text>
             </View>
             <LearnMoreLinks />
